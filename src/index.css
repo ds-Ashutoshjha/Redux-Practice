@@ -7,7 +7,65 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card {
+ background: white;
+ padding: 20px;
+ text-align: center;
+ border-radius: 10px;
+  
+}
+ .productWrapper
+ {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+ }
+ .btn
+ {
+  border: none;
+  outline: none;
+  background: #764abc;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+ }
+ .btn:hover{
+  background: #513282;
+ }
+ .heading{
+  padding: 25px 0;
+ }
+ .cartCount{
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 40px;
+ }
+ .photo{
+  height: 30px;
+ }
+ .cartCard{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 14px;
+  border-radius: 5px;
+ }
+ .navLink{
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+ }
+ .productswrapper {
+  /* display: grid; */
+  /* grid-auto-columns: auto auto auto; */
+  /* grid-column-gap: auto auto;
+  grid-column: auto auto; */
+  /* grid-template-columns: (4, 1fr); */
+  display: inline-flex;
+  
 }
